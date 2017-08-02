@@ -1,0 +1,166 @@
+body {
+  margin: 0px;
+}
+
+.wallpaper {
+  height: 1400px;
+  background: url("img/test_wallpaper.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.identity {
+  font-family: 'Amatic SC', cursive;
+  color: black;
+  font-size: 120px;
+  float: right;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.techno {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 90px;
+  position: absolute;
+  bottom: 580px;
+  left: 50px;
+}
+
+.experience {
+  height: 1200px;
+  background: url("img/exp.jpg") no-repeat;
+}
+
+.breath {
+  margin-top: 100px;
+}
+
+.projets {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 120px;
+  margin: 50px 0 50px 30px;
+}
+
+.projet_block {
+  height: 225px;
+  width: 380px;
+  margin: 10px auto 0 auto;
+  z-index: 1;
+}
+
+.projet1 {
+  background: url(img/bma.png) no-repeat;
+  background-color: rgb(40,40,40);
+  background-position: center;
+}
+
+.projet_block:hover {
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+.contact {
+  background: url("img/test_contact.jpg");
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.connect {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 120px;
+  margin: 50px 0 30px 30px;
+}
+
+.contact_block {
+  height: 350px;
+  border-radius: 50%!important;
+  width: 350px;
+  background-color: white;
+  margin: 70px auto 0 auto;
+}
+
+.contact_block:hover {
+  transform: scale(1.05);
+}
+
+.gmail {
+  background: url(img/gmail.png) no-repeat;
+  background-color: rgb(63, 169, 245);
+  background-position: center;
+}
+
+.github {
+  background: url(img/github.png) no-repeat;
+  background-color: rgb(254, 254, 34);
+  background-position: center;
+}
+
+.linkedin {
+  background: url(img/linkedin.png) no-repeat;
+  background-color: white;
+  background-position: center;
+}
+
+@media (max-width: 1200px) {
+  .identity {
+    font-size: 80px;
+  }
+  .techno {
+    font-size: 80px;
+    top: 750px;
+  }
+  .projets {
+    font-size: 80px;
+  }
+  .connect {
+    font-size: 80px;
+  }
+  .projet_block {
+    height: 200px;
+    width: 200px;
+  }
+  .contact_block {
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  .identity {
+    margin: 30px 0 0 0;
+    text-align: center;
+  }
+  .techno {
+    margin: 0 auto;
+    text-align: center;
+    left: 10px;
+  }
+  .breath{
+    margin: 0;
+  }
+  .projet_block {
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+  }
+  .contact_block {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+  }
+  .projets {
+    text-align: center;
+    margin: 20px 0 40px 0;
+  }
+  .connect {
+    text-align: center;
+    margin: 20px 0 55px 0;
+  }
+}
