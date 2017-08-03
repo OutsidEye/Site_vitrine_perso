@@ -3,7 +3,7 @@ body {
 }
 
 .wallpaper {
-  height: 1400px;
+  height: 100vh;
   background: url("img/wallpaper.jpg") no-repeat center;
   background-attachment: fixed;
   background-position: center;
@@ -67,7 +67,7 @@ body {
 
 .contact {
   background: url("img/contact.jpg");
-  height: 1000px;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -123,6 +123,7 @@ body {
   }
   .connect {
     font-size: 80px;
+    margin-bottom: 0px;
   }
   .projet_block {
     height: 200px;
@@ -131,7 +132,7 @@ body {
   .contact_block {
     height: 250px;
     width: 250px;
-    margin-top: 20px;
+    margin-top: 5px;
   }
 }
 
