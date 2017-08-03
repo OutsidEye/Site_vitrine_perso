@@ -50,7 +50,7 @@ body {
 .project__block {
   height: 225px;
   width: 100%;
-  margin: 10px auto 0 auto;
+  margin: 0 auto 10px auto;
   display: block;
 }
 
@@ -106,7 +106,7 @@ body {
 
 .linkedin {
   background: url(img/linkedin.png) no-repeat;
-  background-color: white;
+  background-color: rgb(255,0,255);
   background-position: center;
 }
 
