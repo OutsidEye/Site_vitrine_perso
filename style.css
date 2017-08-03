@@ -4,7 +4,7 @@ body {
 
 .wallpaper {
   height: 1400px;
-  background: url("img/test_wallpaper.jpg") no-repeat center;
+  background: url("img/wallpaper.jpg") no-repeat center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,13 +24,16 @@ body {
   color: white;
   font-size: 90px;
   position: absolute;
-  bottom: 580px;
-  left: 50px;
+  bottom: 100px;
+  left: 100px;
 }
 
 .experience {
   height: 1200px;
   background: url("img/exp.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .breath {
@@ -53,7 +56,7 @@ body {
 
 .projet1 {
   background: url(img/bma.png) no-repeat;
-  background-color: rgb(40,40,40);
+  background-color: rgb(40, 40, 40);
   background-position: center;
 }
 
@@ -63,7 +66,7 @@ body {
 }
 
 .contact {
-  background: url("img/test_contact.jpg");
+  background: url("img/contact.jpg");
   height: 1000px;
   background-attachment: fixed;
   background-position: center;
@@ -142,7 +145,7 @@ body {
     text-align: center;
     left: 10px;
   }
-  .breath{
+  .breath {
     margin: 0;
   }
   .projet_block {

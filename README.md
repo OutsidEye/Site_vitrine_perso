@@ -1,1 +1,3 @@
-# Site_vitrine_perso
+# Site vitrine perso
+
+Gagner en visibilité sur internet
