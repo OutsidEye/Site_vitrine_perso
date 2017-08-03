@@ -40,27 +40,27 @@ body {
   margin-top: 100px;
 }
 
-.projets {
+.projects {
   font-family: 'Amatic SC', cursive;
   color: white;
   font-size: 120px;
   margin: 50px 0 50px 30px;
 }
 
-.projet_block {
+.project__block {
   height: 225px;
-  width: 380px;
+  width: 100%;
   margin: 10px auto 0 auto;
-  z-index: 1;
+  display: block;
 }
 
-.projet1 {
+.project1 {
   background: url(img/bma.png) no-repeat;
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(120, 40, 40);
   background-position: center;
 }
 
-.projet_block:hover {
+.project__block:hover {
   transform: scale(1.05);
   z-index: 2;
 }
@@ -80,7 +80,7 @@ body {
   margin: 50px 0 30px 30px;
 }
 
-.contact_block {
+.contact__block {
   height: 350px;
   border-radius: 50%!important;
   width: 350px;
@@ -88,7 +88,7 @@ body {
   margin: 70px auto 0 auto;
 }
 
-.contact_block:hover {
+.contact__block:hover {
   transform: scale(1.05);
 }
 
@@ -118,14 +118,14 @@ body {
     font-size: 80px;
     top: 750px;
   }
-  .projets {
+  .projects {
     font-size: 80px;
   }
   .connect {
     font-size: 80px;
     margin-bottom: 0px;
   }
-  .projet_block {
+  .project_block {
     height: 200px;
     width: 200px;
   }
@@ -149,7 +149,7 @@ body {
   .breath {
     margin: 0;
   }
-  .projet_block {
+  .project_block {
     height: 150px;
     width: 150px;
     margin-top: 15px;
@@ -159,7 +159,7 @@ body {
     width: 200px;
     margin-top: 20px;
   }
-  .projets {
+  .projects {
     text-align: center;
     margin: 20px 0 40px 0;
   }
